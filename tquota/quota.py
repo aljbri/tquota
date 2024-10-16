@@ -22,13 +22,16 @@ time during operation.
 
 Change Log:
 -----------
-v0.0.2 - Updated on Wed Oct 16, 2024
+v0.0.3 - Updated on Wed Oct 16, 2024
   - Introduced dynamic gap time (`auto` option) based on average execution times.
   - Added logging functionality to log remaining time.
   - Improved time validation to handle improper inputs.
   - Enhanced time format support, now allowing conversions from strings like '1h', '30m', '5s'.
   - Refactored internal code structure for readability.
   - Introduced automatic performance monitoring to calculate execution time per loop iteration.
+
+v0.0.2 - Initial implementation (Tue May 12, 2021)
+  - Fix major error in previous versions.
 
 v0.0.1 - Initial implementation (Tue May 11, 2021)
   - Basic `Quota` class to track remaining session time.
