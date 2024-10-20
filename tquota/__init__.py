@@ -5,6 +5,6 @@ Created on Fri May  7 00:39:13 2021
 @author: Abdussalam Aljbri
 """
 
-from .quota import quota
+from .quota import Quota
 
-__version__ = '0.0.1'
+__version__ = '0.0.3'
